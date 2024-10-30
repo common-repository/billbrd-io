@@ -1,0 +1,42 @@
+div.billbrd-header {
+	background: #fff;
+	box-sizing: border-box;
+	position: relative;
+	width: calc(100% + 20px);
+	z-index: 1001;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 40px;
+	left: -20px;
+}
+
+h1 {
+    color: #1d2327;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+div.notice {
+	left: -10px;
+}
+
+div.billbrd-wrap {
+	position: relative;
+	top: 60px;
+	max-width: 95%;
+	margin-bottom: 30px;
+}
+
+div.billbrd-wrap img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 40px;
+	border-radius: 100px;
+    height: 200px;
+}
+
+div.billbrd-wrap > div:first-of-type {
+    margin-bottom: 40px;
+}
